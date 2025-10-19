@@ -29,4 +29,3 @@
   - [2nd](posts/2nd.md)
   - [3rd](posts/3rd.md)
 
-- [Summary](summary.md)
