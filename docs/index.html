@@ -14,24 +14,25 @@
 </head>
 
 <body>
-  <div id="app">Welcome from BOS 👋👋👋 ...</div>
+  <div id="app">Welcome from B.O.S</div>
+  
   <script>
     window.$docsify = {
       coverpage: 'cover.md',
       onlyCover: true,
+      auto2top: true,
       logo: '/images/logo.png',
       nativeEmoji: true,
       name: 'Book Of Samael',
-      homepage: 'README.md',
       repo: 'https://github.com/drthedad/samael',
       loadSidebar: true,
       subMaxLevel: 5,
-      // sidebarDisplayLevel: 1,
+      sidebarDisplayLevel: 1,
       loadNavbar: 'nav.md',
       loadFooter: '_footer.md',
       search: {
         maxAge: 86400000,
-        paths: [],
+        paths: 'auto',
         placeholder: 'Search',
         depth: 6,
         hideOtherSidebarContent: false,
@@ -64,7 +65,7 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 
 </body>
